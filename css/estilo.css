@@ -57,7 +57,7 @@ border-collapse, separate, inherit e initial*/
 table {
     width: 500px;
     border-collapse: collapse;
-    height: 400px;
+    height: 190px;
     margin: 10px;
     padding: 0px 0px 0px 2px;
     display: inline;
