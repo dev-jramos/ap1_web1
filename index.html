@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Prova WEB 1</title>
+</head>
+<body>
+    <main>
+        <section>
+<!-- inicio com audio-->
+            <audio preload="metadata" autoplay controls>
+                <source src="midia/canary.mp3" type="audio/mpeg">
+            </audio>
+            <h1>Prova I</h1>
+            <hr>
+        </section>
+
+        <section>
+<!-- formulario de entrada -->
+            <form action="pratica.php" method="POST">
+                
+                    Nome: <input type="text" name="nome" id="inome"><br>
+                    Disciplina: <input type="text" name="disciplina" id="idisciplina"><br>
+                    Data: <input type="date" name="data" id="idata">
+                
+            </form>
+            <hr>
+        </section>
+
+        <section>
+<!-- tabela e video -->
+            <h2>Conteúdos da Prova</h2>
+
+            <p>Marques os conteúdos que você estudou para prova!</p>
+
+            <table>
+                <!-- Cabeçalho da tabela -->
+                <th>Conteúdo</th>
+                <th>Situação</th>
+                
+                <tr><!-- Linha 01 -->
+                    <td class="descricao">Protocolos da Web</td>
+                    <td><input type="checkbox" name="situacao" id="isituacao"></td>
+                </tr>
+
+                <tr><!-- Linha 02 -->
+                    <td class="descricao">Arquitetura Cliente/Servidor</td>
+                    <td><input type="checkbox" name="situacao" id="isituacao"></td>
+                </tr>
+
+                <tr><!-- Linha 03 -->
+                    <td class="descricao">Linguagens/ferramentas p/o desenvolvimento</td>
+                    <td><input type="checkbox" name="situacao" id="isituacao"></td>
+                </tr>
+
+                <tr><!-- Linha 04 -->
+                    <td class="descricao">HTML: Cabeçalho, Títulos, Parágrafos e Links</td>
+                    <td><input type="checkbox" name="situacao" id="isituacao"></td>
+                </tr>
+
+                <tr><!-- Linha 05 -->
+                    <td class="descricao">HTML: Figuras, Listas e Tabelas</td>
+                    <td><input type="checkbox" name="situacao" id="isituacao"></td>
+                </tr>
+
+                <tr><!-- Linha 06 -->
+                    <td class="descricao">HTML: Áudio, Vídeo e Formulários</td>
+                    <td><input type="checkbox" name="situacao" id="isituacao"></td>
+                </tr>
+            </table>
+
+            <video poster="img/limoes-capa.png" controls>
+                <source src="midia/PexelsVLemon.mp4" type="video/mp4">
+            </video>
+
+            <picture>
+                <img src="img/tech_pm.jpg" alt="Tecnologia">
+            </picture>
+        </section>
+
+        <hr>
+
+        <input class="btn" type="submit" value="Enviar">
+        <input class="btn" type="reset" value="Limpar">
+    </main>
+</body>
+</html>

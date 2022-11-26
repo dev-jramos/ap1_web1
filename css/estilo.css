@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* *comando para limpar toda formatação das tags */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* configuração da fonte corpo do documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* configuração do áudio da página */
+audio {
+    padding: 15px;
+    margin: 3px;
+}
+/* configuração dos titulos h1....h6 */
+h1 {
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+}
+/* configuração da quebra de linha horizontal */
+hr {
+    margin: 10px;
+}
+/* configuração do formulário => margim para configurar o espaçamento externo, padding para configurar
+o espaçamento interno, display para configurar se em bloco(block) ou em linha(inline) e outros*/
+form {
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+/* configuração do formulário com espaçamento interno e externo e alinhando o texto com text-align que pode
+receber os parâmetros de center, justify, left e rigth */
+form > input {
+    padding: 2px;
+    margin: 5px;
+    text-align: justify;
+}
+/* configuração do cabeçalho H2 com espaçamento interno e externo e alinhando o texto com text-align que pode
+receber os parâmetros de center, justify, left e rigth */
+h2 {
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+}
+/* configuração do parágrafo com espaçamento interno e externo e alinhando o texto com text-align que pode
+receber os parâmetros de center, justify, left e rigth */
+p {
+    text-align: justify;
+    padding: 10px 10px 30px;
+    margin: 5px;
+}
+/* configuração da tabela com espaçamento interno e externo e alinhando o texto com vertical-align que pode
+receber os parâmetros de top, bottom e middle e configuração da borda que pode reeber os parâmetros de 
+border-collapse, separate, inherit e initial*/
+table {
+    width: 500px;
+    border-collapse: collapse;
+    height: 400px;
+    margin: 10px;
+    padding: 0px 0px 0px 2px;
+    display: inline;
+    vertical-align: top;
+    }
+/*  */
+th, td {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+    font-size: 1em;
+    
+    }
+/* configuração do campo interno da coluna 1 do conteudo com alinhamento de texto (text-align) que pode
+receber os valores de center, justify, left e rigth  */
+.descricao {
+    text-align: left;
+}
+/* configuração do vídeo com espaçamento interno e externo e alinhando o texto com vertical-align que pode
+receber os parâmetros de top, bottom e middle configuração do display que pode receber como parâmetros none,
+inline, block, configuração de largura width e altura height*/
+video {
+    width: 420px;
+    height: 235px;
+    margin: 0px 0px 10px 10px;
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* configuração da imagem com espaçamento interno e externo e alinhando o texto com vertical-align que pode
+receber os parâmetros de top, bottom e middle configuração do display que pode receber como parâmetros none,
+inline, block, configuração de largura width e altura height */
+picture {
+    margin: 0px 0px 10px 10px;
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* configuração do botão/input com espaçamento interno e externo configuração do display que pode receber como parâmetros none,
+inline, block */
+.btn {
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+    padding: 2px;
+}
